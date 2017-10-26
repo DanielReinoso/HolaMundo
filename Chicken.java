@@ -14,6 +14,10 @@ public class Chicken
 			this.color=color;
 			this.age=age;
 		}
+		public void initialize1(String name)
+		{
+			this.name=name;
+		}
 		public void layAndEgg()
 		{
 			System.out.println("The Chicken lay an egg");
@@ -28,8 +32,21 @@ public class Chicken
 		}
 		public void showData()
 		{
-			System.out.println("The Name of the Chiken is: " + name + "Color: " + color + "Age: " + age);
+			System.out.println("The Name of the Chiken is: " +name + " Color: " +color + "Age: " +age);
 		}
+		public void showData1()
+		{
+			System.out.println("The new chiken named: "+name+ " lay an egg");
+		}
+		public void showData2()
+		
+		{
+			System.out.println("The other new chicken called: "+name+ " takes water");				
+		}
+		public void showData3()
+		{
+			System.out.println("And the last one cchicken called " +name+ " does poop");
+		}	
 
 	
 
